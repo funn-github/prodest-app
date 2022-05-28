@@ -1,0 +1,17 @@
+accessToken: "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZhNGY4N2ZmNWQ5M2ZhNmVhMDNlNWM2ZTg4ZWVhMGFjZDJhMjMyYTkiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoieXV2cmFqIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BT2gxNEdnZ0hRVHlvOEJxRWZzNG1icE5KTkdCalNINVJWaWxqNGEwbFI4VD1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9uZXh0anN0ZXN0LTg2ZTZkIiwiYXVkIjoibmV4dGpzdGVzdC04NmU2ZCIsImF1dGhfdGltZSI6MTY0OTYyMDI5MiwidXNlcl9pZCI6ImEwZHFBVWVXRGFQN0RNOXBOWE9lY21GRWtUVTIiLCJzdWIiOiJhMGRxQVVlV0RhUDdETTlwTlhPZWNtRkVrVFUyIiwiaWF0IjoxNjQ5NjIwMjkyLCJleHAiOjE2NDk2MjM4OTIsImVtYWlsIjoieXV2cmFqbnNpbmdoQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTExMzE0OTI3NjY5MTc3MTM0NDY5Il0sImVtYWlsIjpbInl1dnJham5zaW5naEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.uachcl2ai5rBpn3Pe_v9jSp25fkm6pYsH0EMVbCZaTTdZdFgQrLEqCWDCI-LTyK00DiTUEyvILkZFvxiBTL9dlhAEovgstNQTwTW5mGX0uYEjD5QppsD8jvLrNapqrGDXEBwWaeWT1ezkuHja75wlHRsLG46hW5Kgmksr8PTKwL2XUXBhTo0DZraKZ-CrCUzqOwQcn11wMmrvyB4-vYUPGAW2wRZx71VMw47E2zfk0wsxcnwCApRJi8ycwCY-Cogj0JA9Hcz6-kaqWx8UN0tkJXC2v4vJang0yZtOU8RGoBgX9hi_vz_wYTUMQTjOwtv_xUfh0OdcCWAa-ldWh80OA"
+auth: AuthImpl {app: FirebaseAppImpl, heartbeatServiceProvider: Provider, config: {…}, currentUser: UserImpl, emulatorConfig: null, …}
+displayName: "yuvraj"
+email: "yuvrajnsingh@gmail.com"
+emailVerified: true
+isAnonymous: false
+metadata: UserMetadata {createdAt: '1649294639581', lastLoginAt: '1649620167594', lastSignInTime: 'Sun, 10 Apr 2022 19:49:27 GMT', creationTime: 'Thu, 07 Apr 2022 01:23:59 GMT'}
+phoneNumber: null
+photoURL: "https://lh3.googleusercontent.com/a-/AOh14GggHQTyo8BqEfs4mbpNJNGBjSH5RVilj4a0lR8T=s96-c"
+proactiveRefresh: ProactiveRefresh {user: UserImpl, isRunning: true, timerId: 52, errorBackoff: 30000}
+providerData: [{…}]
+providerId: "firebase"
+reloadListener: null
+reloadUserInfo: {localId: 'a0dqAUeWDaP7DM9pNXOecmFEkTU2', email: 'yuvrajnsingh@gmail.com', displayName: 'yuvraj', photoUrl: 'https://lh3.googleusercontent.com/a-/AOh14GggHQTyo8BqEfs4mbpNJNGBjSH5RVilj4a0lR8T=s96-c', emailVerified: true, …}
+stsTokenManager: StsTokenManager {refreshToken: 'AIwUaOl5FkCIXzgzwxvkKZB3Noo7Gf_uw4YfvfKfVR0Vt4-CgC…Bq8vUmjTBRmHCKUF6R0yaBb69fKXaORVH-ZADem_lsHFNMO5I', accessToken: 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjZhNGY4N2ZmNWQ5M2ZhNm…U8RGoBgX9hi_vz_wYTUMQTjOwtv_xUfh0OdcCWAa-ldWh80OA', expirationTime: 1649623894100}
+tenantId: null
+uid: "a0dqAUeWDaP7DM9pNXOecmFEkTU2"

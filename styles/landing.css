@@ -1,0 +1,84 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;700&display=swap');
+  
+  
+    .logo{
+      min-width: 110px; max-width: 110px;
+    }
+  
+    .img{
+      width: 90vw; height: auto;
+    }
+  
+    .features{
+      width: 30%;
+    }
+  
+    .font-2 {
+      font-family: 'Noto Serif', serif;
+    }
+  
+    .grad-text{
+  
+          background: linear-gradient(130deg, #9381ff, #ffd8be);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  
+    }
+  
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: 'DM Sans', sans-serif;
+    }
+  
+    .bgGrad{
+  
+      background: linear-gradient(0deg, #fff6eb 0%, #d6d6ff);
+  
+    }
+  
+  
+  
+  
+    .text-col1{
+      color: #94a3b8;
+    }
+  
+    .bg-col1{
+      background: #9381ff;
+    }
+  
+    .colDark{
+      color: rgb(5, 5, 8);
+    }
+  
+    .bgDark{
+      background: rgb(5, 5, 8);
+    }
+  
+    .button1{
+      background: #9381ff; border: 2px solid #806bff; box-shadow: 3px 3px 0px #806bff
+    }
+  
+    .button2{
+      background: #ffd8be; border: 2px solid #ffc59e; box-shadow: 3px 3px 0px #ffc59e;
+    }
+    .col1{
+      color: rgba(114, 131, 155, 0.8);
+    }
+  
+    .bg-col2{
+      background: #ffd8be;
+    }
+  
+    .bg-blur{
+      backdrop-filter: blur(16px);
+    }
+  
+    .h-big{
+    height: 45rem;
+    }
+  

@@ -1,0 +1,36 @@
+      <div className="bg-grey1 h-full w-full rounded-xl duration-100 p-5">
+      <div className="font-2 colDark flex w-full text-3xl font-extrabold flex">
+          <div>Today's Big Tasks</div>
+          <div>        <button className='h-7 w-7 flex ml-2 mt-1 rounded-lg text-white justify-center items-center bg-col1 border-col-1' onClick={() => {var todoVar = prompt('enter todo stuff'); taskData.push([todoVar, todoVar, todoVar]); alert(taskData); addDataTask()}}>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+</svg>
+        </button></div>
+        </div>
+        
+                <div className="col1 mb-3 flex w-full text-lg">Exercise reduces feelings of depression and improves your mood by releasing feel-good hormones. Check out <a className='colDark mx-1' href="https://musclewiki.com/" > MuscleWiki </a> for specific movements.</div>
+
+
+  
+
+{ taskData.map((item) =>
+
+
+                       <a className='col1 flex' href="#" onClick={() => {removeItemOnce(taskData, item); alert(taskData); addDataTodo()}}>
+
+<div className='w-full'>
+<div className='p-5 w-full mt-2 rounded-xl bg-white bg-opacity-30'>
+<div className='colDark w-full font-2 text-xl'>{item[1]} {item[2]} {item[0] === 'star' ? ( <span>⭐</span> ) : ( <span></span> )}</div>
+
+</div>
+</div>
+</a>
+                       
+                       
+                       
+                       ) }
+
+                         
+
+
+      </div>
