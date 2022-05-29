@@ -1,9 +1,8 @@
 import { useState } from 'react'
 
-const ok = () => {
+
   const [data2, setData2] = useState('')
-}
-ok()
+
 
 export const getStaticProps = async () => {
   const res = await fetch('https://zenquotes.io/api/quotes')

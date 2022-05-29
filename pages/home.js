@@ -694,7 +694,8 @@ function removeItemOnce(arr, value) {
   <div className="w-full relative z-50 flex h12">
     <div className="w-1/3 pt-4 pl-4 pr-2">
       <div className="bg-grey1 duration-100 w-full h-full p-5 rounded-xl">
-        <div className="flex justify-evenly w-full font-2 font-extrabold text-3xl colDark">Today's Big Goal</div>
+        
+        <div className="flex justify-evenly w-full font-2 font-extrabold text-3xl colDark"> {"Today's Big Goal"}</div>
         <div className="h-full  justify-center   ">
        {/*main goal of today, var name*/}           <input defaultValue={name} onChange={event => setName(event.target.value)} className="inputmain h-4/6 focus:outline-none underline-offset-4  bg-transparent   w-full text-center text-2xl" placeholder={mainState}/>
 
@@ -731,7 +732,7 @@ function removeItemOnce(arr, value) {
 
 
 {todoData.map((item) =>
-                       <a className='col1 hover:line-through flex' href="#" onClick={() => {removeItemOnce(todoData, item); alert(todoData); addDataTodo()}}>
+                       <a key={Math.random() * 100} className='col1 hover:line-through flex' href="#" onClick={() => {removeItemOnce(todoData, item); alert(todoData); addDataTodo()}}>
                          <div><svg xmlns="http://www.w3.org/2000/svg" className="h-4 mt-1 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
 </svg></div>
@@ -755,7 +756,7 @@ function removeItemOnce(arr, value) {
         </div>
         <div className="col1 flex w-full text-lg">Gratitude helps recognize positive emotions.</div>
         <div className="h-full  justify-center   ">
-       <textarea value={grat} onChange={event => setGrat(event.target.value)} class="w-full bg-transparent h-5/6 col1 outline-none">
+       <textarea value={grat} onChange={event => setGrat(event.target.value)} className="w-full bg-transparent h-5/6 col1 outline-none">
          
          
 
@@ -792,7 +793,7 @@ function removeItemOnce(arr, value) {
     <div className="w-1/2 pr-4 py-4 pl-2">
     <div className="colDark text-4xl font-black bg-grey1 duration-100 w-full h-full rounded-xl flex justify-center items-center">
       <div className="text-center flex">
-      <div><div className="font-2 text-2xl  font-extrabold">"{quotes[0]}"</div>
+      <div><div className="font-2 text-2xl  font-extrabold">&quot;{quotes[0]}&quot;</div>
       <div className='col1 font-bold text-xl font-medium'>- {quotes[1]}</div></div>
 
       </div>
@@ -866,7 +867,7 @@ function removeItemOnce(arr, value) {
 
     <div className="bg-grey1 h-full w-full rounded-xl p-5 duration-100">
         <div className="font-2 colDark flex w-full text-3xl font-extrabold flex">
-          <div>Today's Big Tasks</div>
+          <div>Today&apos;s Big Tasks</div>
           <div>        <button className='h-7 w-7 flex ml-2 mt-1 rounded-lg text-white justify-center items-center bg-col1 border-col-1' onClick={() => {var todoVar = prompt('Enter Task Name:'); var todoVar2 = prompt('Enter Task Informatoin'); var todoVar3 = prompt('Enter Emoji (star, rainbow, cloud, bulb, hands, coffee, ship, book, date, ticket, gift, food, lightning, heart, tree, pen, brain, pensive, tomato, globe, trophy, alarm)'); taskData.push([todoVar, todoVar2, todoVar3]); alert(taskData); addDataTask()}}>
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
   <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
@@ -881,7 +882,7 @@ function removeItemOnce(arr, value) {
 { taskData.map((item) =>
 
 
-<a className='col1 flex' href="#" onClick={() => {removeItemOnce(taskData, item); alert(taskData); addDataTask()}}>
+<a key={Math.random() * 200} className='col1 flex' href="#" onClick={() => {removeItemOnce(taskData, item); alert(taskData); addDataTask()}}>
 
 <div className='w-full'>
 <div className='p-5 w-full mt-2 rounded-xl bg-white bg-opacity-30'>

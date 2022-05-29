@@ -69,7 +69,7 @@ function Register(){
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="col1 mt-3 w-5/6 text-center text-xl sm:w-4/6 md:w-2/6">A scientifically backed web app that let's you take control of your mental health and productivity with use of various practices such as meditation, excersize, gratitude, and more.</div>
+        <div className="col1 mt-3 w-5/6 text-center text-xl sm:w-4/6 md:w-2/6">A scientifically backed web app that let&apos;s you take control of your mental health and productivity with use of various practices such as meditation, excersize, gratitude, and more.</div>
       </div>
       <div className="mt-5 mb-7 flex w-full justify-center md:mt-7">
         <div className="flex flex-col sm:flex-row">
@@ -100,7 +100,7 @@ function Register(){
     <div className="container mx-auto flex flex-col items-center px-5 py-20 md:flex-row">
       <div className="flex flex-col text-center md:mb-0 md:w-5/6 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-20">
         <h1 className="colDark mb-4 text-4xl font-extrabold capitalize sm:text-5xl md:text-6xl font-2">Built with you in mind.</h1>
-        <p className="col1 mb-6 text-xl">Prodest isn't just a bunch of boxes to fill out, it's a scientifically backed platform to set short and long term goals, accomplish, and improve your mental health.</p>
+        <p className="col1 mb-6 text-xl">Prodest isn&apos;t just a bunch of boxes to fill out, it&apos;s a scientifically backed platform to set short and long term goals, accomplish, and improve your mental health.</p>
       </div>
       <div className="w-5/6 md:w-4/6 lg:w-full lg:max-w-2xl">
         <img className="rounded-2xl" src="https://logos.thefunnblog.repl.co/imgboxes.svg" alt="prodest ux structure" />
@@ -114,7 +114,7 @@ function Register(){
       </div>
       <div className="mt-10 flex flex-col text-center md:mt-0 md:w-5/6 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-20">
         <h1 className="colDark mb-4 text-4xl font-extrabold capitalize sm:text-5xl md:text-6xl font-2">Be productive and do your best work.</h1>
-        <p className="colDark mb-6 text-xl">No more messy documents or giant todo lists; set long term goals with the todo widget, daily goals and ideas with the today's big goal widget, and short term goals with the task manager.</p>
+        <p className="colDark mb-6 text-xl">No more messy documents or giant todo lists; set long term goals with the todo widget, daily goals and ideas with the today&apos;s big goal widget, and short term goals with the task manager.</p>
       </div>
     </div>
   </div>
